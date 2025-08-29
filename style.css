@@ -43,6 +43,7 @@ main{
 }
 main .bloco-principal{
     width: 100%;
+
 }
 main .noticia{
     width: 80%;
@@ -56,12 +57,22 @@ main .noticia img{
 main .descricao h3{
     background: blue;
     color: white;
-    padding; 5px;
+    padding; 15px;
 }
 main .descricao p{
     margin-top: 20px;
     letter-spacing: 3px;
     line-height: 25px;
+    margin-bottom: 20px;
+}
+main .grid-3{
+    display:flex;
+    justify-content: space-around;
+    height: 300px;
+}
+main .grid-3 .coluna{
+    width: 33%;
+    border: 1px solid black;
 }
 main .descricao a{
      background: blue;
@@ -72,7 +83,7 @@ main .descricao a{
 aside{
 	width: 20%;
 	height: 60vh;
-	background: gray;
+	background: yellow;
 }
 footer{
 	width: 100%;
