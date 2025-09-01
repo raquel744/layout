@@ -65,25 +65,26 @@ main .descricao p{
     line-height: 25px;
     margin-bottom: 20px;
 }
-main .grid-3{
-    display:flex;
-    justify-content: space-around;
-    height: 300px;
-}
-main .grid-3 .coluna{
-    width: 33%;
-    border: 1px solid black;
-}
 main .descricao a{
      background: blue;
      color: white;
      padding: 5px 15px;
      margin-top: 15px;
 }
+main .grid-3{
+    display: flex;
+    padding: 15px;
+}
+main .grid-3 .coluna{
+    width: 33%;
+}
+main .grid-3 .coluna-img{
+    width: 100%;
+}
 aside{
 	width: 20%;
 	height: 60vh;
-	background: yellow;
+	background: gray;
 }
 footer{
 	width: 100%;
