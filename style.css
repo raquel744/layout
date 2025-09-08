@@ -77,9 +77,18 @@ main .grid-3{
 }
 main .grid-3 .coluna{
     width: 33%;
+    margin: 10px;
 }
 main .grid-3 .coluna-img{
     width: 100%;
+}
+main .grid-3 .coluna h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-family: arial;
+
+
 }
 aside{
 	width: 20%;
